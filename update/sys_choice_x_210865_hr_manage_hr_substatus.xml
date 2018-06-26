@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="substatus" table="x_210865_hr_manage_hr" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Approved</dependent_value>
+            <element>substatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Succsessfully Approved</label>
+            <language>en</language>
+            <name>x_210865_hr_manage_hr</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 16:44:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>692abd3a4f5613002a6722d18110c74b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 16:44:59</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Work in Progress</dependent_value>
+            <element>substatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wait For Some Time</label>
+            <language>en</language>
+            <name>x_210865_hr_manage_hr</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 16:31:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c67f53a4f5613002a6722d18110c71c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 16:37:41</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>substatus</element>
+            <name>x_210865_hr_manage_hr</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 16:31:53</sys_created_on>
+            <sys_id>4787bdf64f5613002a6722d18110c7f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>substatus</sys_name>
+            <sys_package display_value="HR Management" source="x_210865_hr_manage">d56e23a24f5213002a6722d18110c75b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Management">d56e23a24f5213002a6722d18110c75b</sys_scope>
+            <sys_update_name>sys_choice_x_210865_hr_manage_hr_substatus</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 16:31:53</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

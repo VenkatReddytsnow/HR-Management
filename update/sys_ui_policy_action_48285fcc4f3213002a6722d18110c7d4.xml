@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>substatus</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-15 07:02:40</sys_created_on>
+        <sys_id>48285fcc4f3213002a6722d18110c7d4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>substatus</sys_name>
+        <sys_package display_value="HR Management" source="x_210865_hr_manage">d56e23a24f5213002a6722d18110c75b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Management">d56e23a24f5213002a6722d18110c75b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_48285fcc4f3213002a6722d18110c7d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-15 07:35:08</sys_updated_on>
+        <table>x_210865_hr_manage_hr</table>
+        <ui_policy display_value="UI Policy On HR">8d7793cc4f3213002a6722d18110c795</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

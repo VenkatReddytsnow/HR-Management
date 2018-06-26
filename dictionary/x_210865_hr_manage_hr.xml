@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="HR" max_length="40" name="x_210865_hr_manage_hr" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" dependent="x_210865_hr_manage_status" dependent_on_field="x_210865_hr_manage_status" label="SubStatus" max_length="40" name="substatus" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Approved" label="Succsessfully Approved" sequence="0" value="1"/>
+                <element dependent_value="Work in Progress" label="Wait For Some Time" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="x_210865_hr_manage_status" type="choice">
+            <choice>
+                <element label="Approved" value="3"/>
+                <element label="Rejected" value="4"/>
+                <element label="Work in Progress" value="1"/>
+                <element label="Work is Assigned" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>
